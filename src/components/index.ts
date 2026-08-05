@@ -37,6 +37,7 @@ export {
   HomeIcon,
   LogoutIcon,
   SalesIcon,
+  ImportIcon,
 } from "./icons";
 
 // export { ButtonEdit } from "./buttonEdit";

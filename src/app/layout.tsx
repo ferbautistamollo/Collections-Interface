@@ -9,8 +9,8 @@ import { getUserCookie, getDeployEnvironment, fontSans } from "@/utils";
 
 export const metadata: Metadata = {
   title: {
-    default: "Nombre del sitio",
-    template: `%s - nombre del sitio`,
+    default: "Herramienta Tecnológica de Recaudaciones",
+    template: `%s - Herramienta Tecnológica de Recaudaciones`,
   },
   description: "Descripción del sitio",
   icons: {
@@ -32,7 +32,7 @@ export default async function Layout({
 }) {
   const { data } = await getUserCookie();
   const environment = getDeployEnvironment();
-  const computerToolName = "TEMPLATE MUSERPOL";
+  const computerToolName = "HERRAMIENTA TECNOLÓGICA DE RECAUDACIONES";
 
   return (
     <html suppressHydrationWarning lang="en">
